@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <!-- Link to Script -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<!-- Create an application that will display 20 random people. Your website should
+     search for a specific first name. Your condition must check every time the user
+     types or presses a key on a keyboard if the input element is empty, meaning
+     all 20 people must be displayed. In case the name you are searching for was
+     not found, display a message below the input element saying, “Name not found." -->
+<body>
+    
+    <div class="container">
+            <!-- Heading  -->
+        <div class="heading">
+            <h3>Who are we looking for?</h2>
+        </div>
+            <!-- Enter Names -->
+        <div class="input">
+            <input type="text" id="input">
+        </div>
+            <!-- Click to Search -->
+        <div class="button">
+            <button id="search">Search</button>
+             <button id="display">Names</button>
+        </div>
+        
+    </div>
+    <div class="container-output">
+        <button id="toggle">Sort</button>
+        <div class="output" id="output">
+            <!-- Display Results -->
+        </div>
+    </div>
+
+    <!-- Link to JS -->
+    <script src="/js/script.js"></script>
+</body>
+</html>
